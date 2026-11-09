@@ -6,7 +6,33 @@
 
     /* Schrijf hier de verschillende stijlen, die
        gedeeld gaan worden door jullie projecten */
-
+    :root {
+        --primary-yellow: #FEB51E;
+        --secondary-yellow: #D18B0A;
+        --primary-blue: #47446F;
+        --secondary-blue: #1D194E;
+        --secondary-blue-50: #A4A1B6;
+        --secondary-blue-25: #D1CFDA;
+        --secondary-blue-10: #ECEBF1;
+        --lightblue-heavy: #019DA7;
+        --lightblue-medium: #4FBBC2;
+        --lightblue-light: #A7DDDF;
+        --zalm-heavy: #D04925;
+        --zalm-medium: #F96C4F;
+        --zalm-light: #FDB4A5;
+        --purple-heavy: #9864A0;
+        --purple-medium: #B48EBA;
+        --purple-light: #DAC7DD;
+        --green-heavy: #8E9700;
+        --green-medium: #B0B64C;
+        --green-light: #D7D9A7;
+        --red-heavy: #970033;
+        --red-medium: #BC364E;
+        --red-light: #DD99A6;
+        --blue-heavy: #005374;
+        --blue-medium: #2F739B;
+        --blue-light: #9AB9CD;
+    }
     /* Kleuren */
     .color-example {
         background-color: #bada55;

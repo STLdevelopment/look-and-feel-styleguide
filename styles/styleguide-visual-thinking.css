@@ -8,26 +8,32 @@
   :root {
     --primary-yellow: #feb51e;
     --secondary-yellow: #d18b0a;
+
     --primary-blue: #1d194e;
+
     --secondary-blue: #47446f;
-    --secondary-blue-50: #a4a1b6;
-    --secondary-blue-25: #d1cfda;
-    --secondary-blue-10: #ecebf1;
+    --secondary-blue-light: #A3A2B7;
+
     --lightblue-dark: #019da7;
     --lightblue-regular: #4fbbc2;
     --lightblue-light: #a7dddf;
+
     --orange-dark: #d04925;
     --orange-regular: #f96c4f;
     --orange-light: #fdb4a5;
+
     --purple-dark: #9864a0;
     --purple-regular: #b48eba;
     --purple-light: #dac7dd;
+
     --green-dark: #8e9700;
     --green-regular: #b0b64c;
     --green-light: #d7d9a7;
+
     --red-dark: #970033;
     --red-regular: #bc364e;
     --red-light: #dd99a6;
+    
     --blue-dark: #005374;
     --blue-regular: #2f739b;
     --blue-light: #9ab9cd;
@@ -38,9 +44,7 @@
 
   .primary-blue {background-color: var(--primary-blue);}
   .secondary-blue {background-color: var(--secondary-blue);}
-  .secondary-blue-50 {background-color: var(--secondary-blue-50);}
-  .secondary-blue-25 {background-color: var(--secondary-blue-25);}
-  .secondary-blue-10 {background-color: var(--secondary-blue-10);}
+  .secondary-blue-light {background-color: var(--secondary-blue-light);}
 
   .lightblue-dark {background-color: var(--lightblue-dark);}
   .lightblue-regular {background-color: var(--lightblue-regular);}

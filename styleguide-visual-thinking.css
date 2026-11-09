@@ -3,44 +3,70 @@
    https://css-tricks.com/css-cascade-layers/ */
 
 @layer styleguide {
-
-    /* Schrijf hier de verschillende stijlen, die
+  /* Schrijf hier de verschillende stijlen, die
        gedeeld gaan worden door jullie projecten */
-    :root {
-        --primary-yellow: #FEB51E;
-        --secondary-yellow: #D18B0A;
-        --primary-blue: #47446F;
-        --secondary-blue: #1D194E;
-        --secondary-blue-50: #A4A1B6;
-        --secondary-blue-25: #D1CFDA;
-        --secondary-blue-10: #ECEBF1;
-        --lightblue-heavy: #019DA7;
-        --lightblue-medium: #4FBBC2;
-        --lightblue-light: #A7DDDF;
-        --zalm-heavy: #D04925;
-        --zalm-medium: #F96C4F;
-        --zalm-light: #FDB4A5;
-        --purple-heavy: #9864A0;
-        --purple-medium: #B48EBA;
-        --purple-light: #DAC7DD;
-        --green-heavy: #8E9700;
-        --green-medium: #B0B64C;
-        --green-light: #D7D9A7;
-        --red-heavy: #970033;
-        --red-medium: #BC364E;
-        --red-light: #DD99A6;
-        --blue-heavy: #005374;
-        --blue-medium: #2F739B;
-        --blue-light: #9AB9CD;
-    }
-    /* Kleuren */
-    .color-example {
-        background-color: #bada55;
-    }
+  :root {
+    --primary-yellow: #feb51e;
+    --secondary-yellow: #d18b0a;
+    --primary-blue: #47446f;
+    --secondary-blue: #1d194e;
+    --secondary-blue-50: #a4a1b6;
+    --secondary-blue-25: #d1cfda;
+    --secondary-blue-10: #ecebf1;
+    --lightblue-dark: #019da7;
+    --lightblue-regular: #4fbbc2;
+    --lightblue-light: #a7dddf;
+    --orange-dark: #d04925;
+    --orange-regular: #f96c4f;
+    --orange-light: #fdb4a5;
+    --purple-dark: #9864a0;
+    --purple-regular: #b48eba;
+    --purple-light: #dac7dd;
+    --green-dark: #8e9700;
+    --green-regular: #b0b64c;
+    --green-light: #d7d9a7;
+    --red-dark: #970033;
+    --red-regular: #bc364e;
+    --red-light: #dd99a6;
+    --blue-dark: #005374;
+    --blue-regular: #2f739b;
+    --blue-light: #9ab9cd;
+  }
+  /* Kleuren */
+  .primary-yellow {background-color: var(--primary-yellow);}
+  .secondary-yellow {background-color: var(--secondary-yellow);}
 
-    /* Typografie */
+  .primary-blue {background-color: var(--primary-blue);}
+  .secondary-blue {background-color: var(--secondary-blue);}
+  .secondary-blue-50 {background-color: var(--secondary-blue-50);}
+  .secondary-blue-25 {background-color: var(--secondary-blue-25);}
+  .secondary-blue-10 {background-color: var(--secondary-blue-10);}
 
+  .lightblue-dark {background-color: var(--lightblue-dark);}
+  .lightblue-regular {background-color: var(--lightblue-regular);}
+  .lightblue-light {background-color: var(--lightblue-light);}
 
-    /* Formulier elementen */
+  .orange-dark {background-color: var(--orange-dark);}
+  .orange-regular {background-color: var(--orange-regular);}
+  .orange-light {background-color: var(--orange-light);}
 
+  .purple-dark {background-color: var(--purple-dark);}
+  .purple-regular {background-color: var(--purple-regular);}
+  .purple-light {background-color: var(--purple-light);}
+
+  .green-dark {background-color: var(--green-dark);}
+  .green-regular {background-color: var(--green-regular);}
+  .green-light {background-color: var(--green-light);}
+
+  .red-dark {background-color: var(--red-dark);}
+  .red-regular {background-color: var(--red-regular);}
+  .red-light {background-color: var(--red-light);}
+
+  .blue-dark {background-color: var(--blue-dark);}
+  .blue-regular {background-color: var(--blue-regular);}
+  .blue-light {background-color: var(--blue-light);}
+
+  /* Typografie */
+
+  /* Formulier elementen */
 }

@@ -1,0 +1,190 @@
+/* We gebruiken hier Cascade layers, wat mogelijke problemen met Specificiteit voorkomt
+   https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
+   https://css-tricks.com/css-cascade-layers/ */
+
+@layer styleguide {
+
+  /* Schrijf hier de verschillende stijlen, die
+       gedeeld gaan worden door jullie projecten */
+  :root {
+    --primary-yellow: #feb51e;
+    --secondary-yellow: #d18b0a;
+
+    --primary-blue: #1d194e;
+
+    --secondary-blue: #47446f;
+    --secondary-blue-light: #A3A2B7;
+
+    --lightblue-dark: #019da7;
+    --lightblue-regular: #4fbbc2;
+    --lightblue-light: #a7dddf;
+
+    --orange-dark: #d04925;
+    --orange-regular: #f96c4f;
+    --orange-light: #fdb4a5;
+
+    --purple-dark: #9864a0;
+    --purple-regular: #b48eba;
+    --purple-light: #dac7dd;
+
+    --green-dark: #8e9700;
+    --green-regular: #b0b64c;
+    --green-light: #d7d9a7;
+
+    --red-dark: #970033;
+    --red-regular: #bc364e;
+    --red-light: #dd99a6;
+
+    --blue-dark: #005374;
+    --blue-regular: #2f739b;
+    --blue-light: #9ab9cd;
+  }
+
+  /* Kleuren */
+  .primary-yellow {
+    background-color: var(--primary-yellow);
+  }
+
+  .secondary-yellow {
+    background-color: var(--secondary-yellow);
+  }
+
+  .primary-blue {
+    background-color: var(--primary-blue);
+  }
+
+  .secondary-blue {
+    background-color: var(--secondary-blue);
+  }
+
+  .secondary-blue-light {
+    background-color: var(--secondary-blue-light);
+  }
+
+  .lightblue-dark {
+    background-color: var(--lightblue-dark);
+  }
+
+  .lightblue-regular {
+    background-color: var(--lightblue-regular);
+  }
+
+  .lightblue-light {
+    background-color: var(--lightblue-light);
+  }
+
+  .orange-dark {
+    background-color: var(--orange-dark);
+  }
+
+  .orange-regular {
+    background-color: var(--orange-regular);
+  }
+
+  .orange-light {
+    background-color: var(--orange-light);
+  }
+
+  .purple-dark {
+    background-color: var(--purple-dark);
+  }
+
+  .purple-regular {
+    background-color: var(--purple-regular);
+  }
+
+  .purple-light {
+    background-color: var(--purple-light);
+  }
+
+  .green-dark {
+    background-color: var(--green-dark);
+  }
+
+  .green-regular {
+    background-color: var(--green-regular);
+  }
+
+  .green-light {
+    background-color: var(--green-light);
+  }
+
+  .red-dark {
+    background-color: var(--red-dark);
+  }
+
+  .red-regular {
+    background-color: var(--red-regular);
+  }
+
+  .red-light {
+    background-color: var(--red-light);
+  }
+
+  .blue-dark {
+    background-color: var(--blue-dark);
+  }
+
+  .blue-regular {
+    background-color: var(--blue-regular);
+  }
+
+  .blue-light {
+    background-color: var(--blue-light);
+  }
+}
+
+/* Typografie */
+
+/* Formulier elementen */
+input,
+textarea,
+select {
+  border: 1px solid var(--secondary-blue-light);
+  border-radius: 0px;
+  padding: 16px;
+  color: var(--primary-blue);
+  background-color: transparent;
+  box-shadow: unset;
+
+  &:focus {
+    border-color: var(--primary-blue);
+    outline: 1px solid var(--primary-blue);
+  }
+
+  &::placeholder {
+    color: var(--secondary-blue-light);
+  }
+}
+
+textarea {
+  resize: vertical;
+}
+
+fieldset:has(input[type="radio"], input[type="checkbox"]) {
+  display: flex;
+  gap: 1rem;
+}
+
+label:has(input[type="radio"], input[type="checkbox"]) {
+  background-color: white;
+  color: var(--primary-blue);
+  outline: 1px solid var(--primary-blue);
+  padding: 14px;
+
+  &:has(:is(input[type="radio"], input[type="checkbox"]):checked) {
+    background-color: var(--primary-blue);
+    color: white;
+  }
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="submit"] {
+  border: unset;
+  background-color: var(--primary-yellow);
+  color: var(--primary-blue);
+}

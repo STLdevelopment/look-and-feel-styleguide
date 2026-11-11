@@ -35,6 +35,7 @@
     --red-regular: #bc364e;
     --red-light: #dd99a6;
 
+
     --blue-dark: #005374;
     --blue-regular: #2f739b;
     --blue-light: #9ab9cd;
@@ -134,7 +135,46 @@
   }
 }
 
+
 /* Typografie */
+@font-face {
+  font-family: "Quantico";
+  src: url(../fonts/Quantico-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Quantico";
+  src: url(../fonts/Quantico-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Quantico";
+  src: url(../fonts/Quantico-Italic.ttf);
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Quantico";
+  src: url(../fonts/Quantico-BoldItalic.ttf);
+  font-style: italic;
+  font-weight: 700;
+}
+
+body {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+}
+
+.quote {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+}
+
 
 /* Formulier elementen */
 input,

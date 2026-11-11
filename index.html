@@ -1,20 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Projectnaam] - Styleguide</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="styleguide.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Visual Thinking () - Styleguide</title>
+    <link rel="stylesheet" href="styles/index.css"/>
+    <link rel="stylesheet" href="styles/styleguide-visual-thinking.css"/>
+    <link rel="stylesheet" href="https://use.typekit.net/amj1ims.css"/>
   </head>
   <body>
-
     <header>
-      <h1>[Projectnaam] - Styleguide</h1>
-      <p>Dit is de styleguide voor het project [Projectnaam]. Hierin zijn een aantal huisstijl onderdelen gedefinieerd.</p>
-      <p>Gebruik de volgende gedeelde stylesheet binnen je eigen project:
-        <!-- Pas deze aan zodra deze repository live staat op GitHub Pages -->
-        <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://....github.io/.../styleguide.css&quot;&gt;</code>
+      <h1>Visual Thinking () - Styleguide</h1>
+      <p>
+        Dit is de styleguide voor het project Visual Thinking. Hierin zijn een
+        aantal huisstijl onderdelen gedefinieerd.
+      </p>
+      <p>
+        Gebruik de volgende gedeelde stylesheet binnen je eigen project:
+        <!-- <code><link rel="stylesheet" href="https://use.typekit.net/amj1ims.css"></code> -->
       </p>
     </header>
 
@@ -25,51 +28,141 @@
       <!-- En eventueel meer categorieën en componenten -->
     </nav>
 
-
     <section id="kleur">
-
       <h2>Kleuren</h2>
       <p>Bij het onderdeel kleuren staat het kleurgebruik.</p>
 
+      <h3><strong>Hoofdkleuren</strong></h3>
+      <p>Interactieve elementen</p>
       <figure>
-        <code class="">#333333</code>
-        <figcaption>Kleur 1</figcaption>
+        <code class="primary-yellow"></code>
+        <figcaption>#FEB51E</figcaption>
       </figure>
       <figure>
-        <code class="">#666666</code>
-        <figcaption>Kleur 2</figcaption>
-      </figure>
-      <figure>
-        <code class="">#999999</code>
-        <figcaption>Kleur 3</figcaption>
-      </figure>
-      <figure>
-        <code class="color-example">#bada55</code>
-        <figcaption>Etc</figcaption>
+        <code class="secondary-yellow"></code>
+        <figcaption>#D18B0A</figcaption>
       </figure>
 
+      <p>Tekst en vlakken</p>
+      <figure>
+        <code class="primary-blue"></code>
+        <figcaption>#1D194E (General headings and body text)</figcaption>
+      </figure>
+      <figure>
+        <code class="secondary-blue"></code>
+        <figcaption>#47446F (Background color)</figcaption>
+      </figure>
+      <figure>
+        <code class="secondary-blue-light"></code>
+        <figcaption>#A3A2B7 (Light text on white backgrounds / Breadcrumbs)</figcaption>
+      </figure>
+
+      <h3><strong>Steunkleuren</strong></h3>
+      <p>Light Blue</p>
+      <figure>
+        <code class="lightblue-dark"></code>
+        <figcaption>#019DA7</figcaption>
+      </figure>
+      <figure>
+        <code class="lightblue-regular"></code>
+        <figcaption>#4FBBC2</figcaption>
+      </figure>
+      <figure>
+        <code class="lightblue-light"></code>
+        <figcaption>#A7DDDF</figcaption>
+      </figure>
+
+      <p>Orange</p>
+      <figure>
+        <code class="orange-dark"></code>
+        <figcaption>#D04925</figcaption>
+      </figure>
+      <figure>
+        <code class="orange-regular"></code>
+        <figcaption>#F96C4F</figcaption>
+      </figure>
+      <figure>
+        <code class="orange-light"></code>
+        <figcaption>#FDB4A5</figcaption>
+      </figure>
+
+      <p>Purple</p>
+      <figure>
+        <code class="purple-dark"></code>
+        <figcaption>#9864A0</figcaption>
+      </figure>
+      <figure>
+        <code class="purple-regular"></code>
+        <figcaption>#B48EBA</figcaption>
+      </figure>
+      <figure>
+        <code class="purple-light"></code>
+        <figcaption>#DAC7DD</figcaption>
+      </figure>
+
+      <p>Green</p>
+      <figure>
+        <code class="green-dark"></code>
+        <figcaption>#8E9700</figcaption>
+      </figure>
+      <figure>
+        <code class="green-regular"></code>
+        <figcaption>#B0B64C</figcaption>
+      </figure>
+      <figure>
+        <code class="green-light"></code>
+        <figcaption>#D7D9A7</figcaption>
+      </figure>
+
+      <p>Red</p>
+      <figure>
+        <code class="red-dark"></code>
+        <figcaption>#970033</figcaption>
+      </figure>
+      <figure>
+        <code class="red-regular"></code>
+        <figcaption>#BC364E</figcaption>
+      </figure>
+      <figure>
+        <code class="red-light"></code>
+        <figcaption>#DD99A6</figcaption>
+      </figure>
+
+      <p>Blue</p>
+      <figure>
+        <code class="blue-dark"></code>
+        <figcaption>#005374</figcaption>
+      </figure>
+      <figure>
+        <code class="blue-regular"></code>
+        <figcaption>#2F739B</figcaption>
+      </figure>
+      <figure>
+        <code class="blue-light"></code>
+        <figcaption>#9AB9CD</figcaption>
+      </figure>
     </section>
 
-
     <section id="typografie">
-
       <h2>Typografie</h2>
-      <p>Bij het onderdeel typografie worden fonts en groottes gedemonstreerd.</p>
+      <p>
+        Bij het onderdeel typografie worden fonts en groottes gedemonstreerd.
+      </p>
 
-      <h1 class="">Kop 1</h1>
-      <h2 class="">Kop 2</h2>
-      <h3 class="">Kop 3</h3>
-      <h4 class="">Kop 4</h4>
-      <h5 class="">Kop 5</h5>
-      <h6 class="">Kop 6</h6>
+      <h1>Tekenmethodes</h1>
+      <h2>Leren over jezelf en reflecteren</h2>
+      <h3>Roadmap</h3>
 
       <p class="">Simpele alinea's</p>
-      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
 
       <ul class="">
         <li>Ongeordende lijsten met items</li>
@@ -126,35 +219,33 @@
         </tbody>
       </table>
 
-      <blockquote class="">
-        <p>Dit is een quote, met een specifieke styling. Standaard wordt deze ingesprongen door de browser. Maar waarschijnlijk zien quotes er bij jullie anders uit.</p>
+      <blockquote class="quote">
+        <p>
+          Dit is een quote, met een specifieke styling. Standaard wordt deze
+          ingesprongen door de browser. Maar waarschijnlijk zien quotes er bij
+          jullie anders uit.
+        </p>
       </blockquote>
-
     </section>
 
-
     <section id="formulieren">
-
       <h2>Formulier elementen</h2>
-      <p>Bij het onderdeel formulier elementen worden input, radio, checkbox en buttons gedemonstreerd.</p>
+      <p>
+        Bij het onderdeel formulier elementen worden input, radio, checkbox en
+        buttons gedemonstreerd.
+      </p>
 
       <form class="">
-
         <p>
           <label class="">
-<<<<<<< Updated upstream
-            Text: 
-            <input type="text" class="">
-=======
             Text:
             <input type="text" class="" placeholder="Test tekst" />
->>>>>>> Stashed changes
           </label>
         </p>
 
         <p>
           <label class="">
-            Textarea: 
+            Textarea:
             <textarea class=""></textarea>
           </label>
         </p>
@@ -163,74 +254,87 @@
           <legend class="">Radio options:</legend>
 
           <label class="">
-            <input type="radio" name="radio-options" value="option 1" checked class="">
+            <input
+              type="radio"
+              name="radio-options"
+              value="option 1"
+              checked
+              class=""
+            />
             Option 1
           </label>
 
           <label class="">
-            <input type="radio" name="radio-options" value="option 2" class="">
+            <input
+              type="radio"
+              name="radio-options"
+              value="option 2"
+              class=""
+            />
             Option 2
           </label>
 
           <label class="">
-            <input type="radio" name="radio-options" value="option 3" class="">
+            <input
+              type="radio"
+              name="radio-options"
+              value="option 3"
+              class=""
+            />
             Option 3
           </label>
         </fieldset>
-        
+
         <fieldset>
           <legend class="">Checkbox</legend>
 
           <label class="">
-            <input type="checkbox" name="checkbox-1" checked class="">
+            <input type="checkbox" name="checkbox-1" checked class="" />
             Checkbox 1
           </label>
 
           <label class="">
-            <input type="checkbox" name="checkbox-2" class="">
+            <input type="checkbox" name="checkbox-2" class="" />
             Checkbox 2
           </label>
 
           <label class="">
-            <input type="checkbox" name="chekcbox-3" class="">
+            <input type="checkbox" name="chekcbox-3" class="" />
             Checkbox 3
           </label>
         </fieldset>
 
         <p>
           <label class="">
-            Search: 
-            <input type="search" class="">
-          </label>
-        </p>
-        
-        <p>
-          <label class="">
-            Tel: 
-            <input type="tel" class="">
+            Search:
+            <input type="search" class="" />
           </label>
         </p>
 
         <p>
           <label class="">
-            Range: 
-            <input type="range" class="">
+            Tel:
+            <input type="tel" class="" />
           </label>
         </p>
 
         <p>
-          <input type="submit" value="Submit button" class="">
+          <label class="">
+            Range:
+            <input type="range" class="" />
+          </label>
+        </p>
+
+        <p>
+          <input type="submit" value="Submit button" class="" />
         </p>
 
         <p>
           <button type="button" class="">Button</button>
         </p>
       </form>
-    
     </section>
 
-
     <!-- En eventueel meer categorieën en componenten -->
-
   </body>
 </html>

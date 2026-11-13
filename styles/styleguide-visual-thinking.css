@@ -7,131 +7,131 @@
   /* Schrijf hier de verschillende stijlen, die
        gedeeld gaan worden door jullie projecten */
   :root {
-    --primary-yellow: #feb51e;
-    --secondary-yellow: #d18b0a;
+    --color-primary: #feb51e;
+    --color-primary-dark: #d18b0a;
 
-    --primary-blue: #1d194e;
+    --color-secondary: #1d194e;
 
-    --secondary-blue: #47446f;
-    --secondary-blue-light: #A3A2B7;
+    --color-secondary-light: #47446f;
+    --color-secondary-lighter: #A3A2B7;
 
-    --lightblue-dark: #019da7;
-    --lightblue-regular: #4fbbc2;
-    --lightblue-light: #a7dddf;
+    --color-leren-reflecteren-dark: #019da7;
+    --color-leren-reflecteren: #4fbbc2;
+    --color-leren-reflecteren-light: #a7dddf;
 
-    --orange-dark: #d04925;
-    --orange-regular: #f96c4f;
-    --orange-light: #fdb4a5;
+    --color-onderzoeken-dark: #d04925;
+    --color-onderzoeken: #f96c4f;
+    --color-onderzoeken-light: #fdb4a5;
 
-    --purple-dark: #9864a0;
-    --purple-regular: #b48eba;
-    --purple-light: #dac7dd;
+    --color-creatief-dark: #9864a0;
+    --color-creatief: #b48eba;
+    --color-creatief-light: #dac7dd;
 
-    --green-dark: #8e9700;
-    --green-regular: #b0b64c;
-    --green-light: #d7d9a7;
+    --color-organiseren-dark: #8e9700;
+    --color-organiseren: #b0b64c;
+    --color-organiseren-light: #d7d9a7;
 
-    --red-dark: #970033;
-    --red-regular: #bc364e;
-    --red-light: #dd99a6;
+    --color-communiceren-dark: #970033;
+    --color-communiceren: #bc364e;
+    --color-communiceren-light: #dd99a6;
 
 
-    --blue-dark: #005374;
-    --blue-regular: #2f739b;
-    --blue-light: #9ab9cd;
+    --color-leren-ander-dark: #005374;
+    --color-leren-ander: #2f739b;
+    --color-leren-ander-light: #9ab9cd;
   }
 
   /* Kleuren */
-  .primary-yellow {
-    background-color: var(--primary-yellow);
+  .color-primary {
+    background-color: var(--color-primary);
   }
 
-  .secondary-yellow {
-    background-color: var(--secondary-yellow);
+  .color-primary-dark {
+    background-color: var(--color-primary-dark);
   }
 
-  .primary-blue {
-    background-color: var(--primary-blue);
+  .color-secondary {
+    background-color: var(--color-secondary);
   }
 
-  .secondary-blue {
-    background-color: var(--secondary-blue);
+  .color-secondary-light {
+    background-color: var(--color-secondary-light);
   }
 
-  .secondary-blue-light {
-    background-color: var(--secondary-blue-light);
+  .color-secondary-lighter {
+    background-color: var(--color-secondary-lighter);
   }
 
-  .lightblue-dark {
-    background-color: var(--lightblue-dark);
+  .color-leren-reflecteren-dark {
+    background-color: var(--color-leren-reflecteren-dark);
   }
 
-  .lightblue-regular {
-    background-color: var(--lightblue-regular);
+  .color-leren-reflecteren {
+    background-color: var(--color-leren-reflecteren);
   }
 
-  .lightblue-light {
-    background-color: var(--lightblue-light);
+  .color-leren-reflecteren-light {
+    background-color: var(--color-leren-reflecteren-light);
   }
 
-  .orange-dark {
-    background-color: var(--orange-dark);
+  .color-onderzoeken-dark {
+    background-color: var(--color-onderzoeken-dark);
   }
 
-  .orange-regular {
-    background-color: var(--orange-regular);
+  .color-onderzoeken {
+    background-color: var(--color-onderzoeken);
   }
 
-  .orange-light {
-    background-color: var(--orange-light);
+  .color-onderzoeken-light {
+    background-color: var(--color-onderzoeken-light);
   }
 
-  .purple-dark {
-    background-color: var(--purple-dark);
+  .color-creatief-dark {
+    background-color: var(--color-creatief-dark);
   }
 
-  .purple-regular {
-    background-color: var(--purple-regular);
+  .color-creatief {
+    background-color: var(--color-creatief);
   }
 
-  .purple-light {
-    background-color: var(--purple-light);
+  .color-creatief-light {
+    background-color: var(--color-creatief-light);
   }
 
-  .green-dark {
-    background-color: var(--green-dark);
+  .color-organiseren-dark {
+    background-color: var(--color-organiseren-dark);
   }
 
-  .green-regular {
-    background-color: var(--green-regular);
+  .color-organiseren {
+    background-color: var(--color-organiseren);
   }
 
-  .green-light {
-    background-color: var(--green-light);
+  .color-organiseren-light {
+    background-color: var(--color-organiseren-light);
   }
 
-  .red-dark {
-    background-color: var(--red-dark);
+  .color-communiceren-dark {
+    background-color: var(--color-communiceren-dark);
   }
 
-  .red-regular {
-    background-color: var(--red-regular);
+  .color-communiceren {
+    background-color: var(--color-communiceren);
   }
 
-  .red-light {
-    background-color: var(--red-light);
+  .color-communiceren-light {
+    background-color: var(--color-communiceren-light);
   }
 
-  .blue-dark {
-    background-color: var(--blue-dark);
+  .color-leren-ander-dark {
+    background-color: var(--color-leren-ander-dark);
   }
 
-  .blue-regular {
-    background-color: var(--blue-regular);
+  .color-leren-ander {
+    background-color: var(--color-leren-ander);
   }
 
-  .blue-light {
-    background-color: var(--blue-light);
+  .color-leren-ander-light {
+    background-color: var(--color-leren-ander-light);
   }
 }
 
@@ -180,20 +180,20 @@ body {
 input,
 textarea,
 select {
-  border: 1px solid var(--secondary-blue-light);
+  border: 1px solid var(--color-secondary-lighter);
   border-radius: 0px;
   padding: 16px;
-  color: var(--primary-blue);
+  color: var(--color-secondary);
   background-color: transparent;
   box-shadow: unset;
 
   &:focus {
-    border-color: var(--primary-blue);
-    outline: 1px solid var(--primary-blue);
+    border-color: var(--color-secondary);
+    outline: 1px solid var(--color-secondary);
   }
 
   &::placeholder {
-    color: var(--secondary-blue-light);
+    color: var(--color-secondary-lighter);
   }
 }
 
@@ -208,12 +208,12 @@ fieldset:has(input[type="radio"], input[type="checkbox"]) {
 
 label:has(input[type="radio"], input[type="checkbox"]) {
   background-color: white;
-  color: var(--primary-blue);
-  outline: 1px solid var(--primary-blue);
+  color: var(--color-secondary);
+  outline: 1px solid var(--color-secondary);
   padding: 14px;
 
   &:has(:is(input[type="radio"], input[type="checkbox"]):checked) {
-    background-color: var(--primary-blue);
+    background-color: var(--color-secondary);
     color: white;
   }
 }
@@ -225,6 +225,6 @@ input[type="checkbox"] {
 
 input[type="submit"] {
   border: unset;
-  background-color: var(--primary-yellow);
-  color: var(--primary-blue);
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
 }

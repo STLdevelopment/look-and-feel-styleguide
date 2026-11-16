@@ -165,7 +165,7 @@
   font-weight: 700;
 }
 
-body {
+body, p {
   font-family: "Quantico", sans-serif;
   font-weight: 400;
 }

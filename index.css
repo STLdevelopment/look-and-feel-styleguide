@@ -17,15 +17,6 @@
     background: #fff;
   }
 
-  nav:not([class]),
-  h1:not([class]),
-  h2:not([class]),
-  p:not([class]),
-  figcaption:not([class]) {
-    font-family: sans-serif;
-    line-height: 1.5;
-  }
-
   p:not([class]) > code:not([class]) {
     display: block;
   }

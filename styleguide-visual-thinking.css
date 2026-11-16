@@ -139,28 +139,28 @@
 /* Typografie */
 @font-face {
   font-family: "Quantico";
-  src: url(../fonts/Quantico-Regular.ttf);
+  src: url(fonts/Quantico-Regular.ttf);
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Quantico";
-  src: url(../fonts/Quantico-Bold.ttf);
+  src: url(fonts/Quantico-Bold.ttf);
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Quantico";
-  src: url(../fonts/Quantico-Italic.ttf);
+  src: url(fonts/Quantico-Italic.ttf);
   font-style: italic;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Quantico";
-  src: url(../fonts/Quantico-BoldItalic.ttf);
+  src: url(fonts/Quantico-BoldItalic.ttf);
   font-style: italic;
   font-weight: 700;
 }
@@ -173,6 +173,10 @@ body, p {
 .quote {
   font-family: "Quantico", sans-serif;
   font-weight: 700;
+}
+
+input, textarea, button {
+  font: inherit;
 }
 
 

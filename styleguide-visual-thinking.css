@@ -224,11 +224,13 @@ label:has(input[type="radio"], input[type="checkbox"]) {
 
 input[type="radio"],
 input[type="checkbox"] {
-  display: none;
+  appearance: none;
+  cursor: pointer;
 }
 
 input[type="submit"] {
   border: unset;
   background-color: var(--color-primary);
   color: var(--color-secondary);
+  cursor: pointer;
 }

@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <h1>Visual Thinking () - Styleguide</h1>
+      <h1>Visual Thinking - Styleguide</h1>
       <p>
         Dit is de styleguide voor het project Visual Thinking. Hierin zijn een
         aantal huisstijl onderdelen gedefinieerd.
@@ -145,7 +145,7 @@
       </figure>
     </section>
 
-    <section id="typografie">
+    <section class="typografie">
       <h2>Typografie</h2>
       <p>
         Bij het onderdeel typografie worden fonts en groottes gedemonstreerd.
@@ -155,8 +155,8 @@
       <h2>Leren over jezelf en reflecteren</h2>
       <h3>Roadmap</h3>
 
-      <p class="">Simpele alinea's</p>
-      <p class="">
+      <p class="alinea-kop">Simpele alinea's</p>
+      <p class="alinea-tekst">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -166,19 +166,19 @@
         mollit anim id est laborum.
       </p>
 
-      <ul class="">
+      <ul class="list-bullet">
         <li>Ongeordende lijsten met items</li>
         <li>Met nog meer items</li>
         <li>En nog een item</li>
       </ul>
 
-      <ol class="">
+      <ol class="list-numbered">
         <li>Geordende lijsten met items</li>
         <li>Met nog meer items</li>
         <li>En nog een item</li>
       </ol>
 
-      <table class="">
+      <table class="table">
         <thead>
           <tr>
             <th>Tabelkop</th>
@@ -230,32 +230,32 @@
       </blockquote>
     </section>
 
-    <section id="formulieren">
+    <section class="forms">
       <h2>Formulier elementen</h2>
       <p>
         Bij het onderdeel formulier elementen worden input, radio, checkbox en
         buttons gedemonstreerd.
       </p>
 
-      <form class="">
+      <form class="form-options">
         <p>
-          <label class="">
+          <label class="text-test">
             Text:
-            <input type="text" class="" placeholder="Test tekst" />
+            <input type="text" class="text-area" placeholder="Test tekst" />
           </label>
         </p>
 
         <p>
-          <label class="">
+          <label class="text-area">
             Textarea:
-            <textarea class=""></textarea>
+            <textarea class="text-area"></textarea>
           </label>
         </p>
 
         <fieldset>
-          <legend class="">Radio options:</legend>
+          <legend class="radio-title">Radio options:</legend>
 
-          <label class="">
+          <label class="radio-options">
             <input
               type="radio"
               name="radio-options"
@@ -266,7 +266,7 @@
             Option 1
           </label>
 
-          <label class="">
+          <label class="radio-options">
             <input
               type="radio"
               name="radio-options"
@@ -276,7 +276,7 @@
             Option 2
           </label>
 
-          <label class="">
+          <label class="radio-options">
             <input
               type="radio"
               name="radio-options"
@@ -288,51 +288,47 @@
         </fieldset>
 
         <fieldset>
-          <legend class="">Checkbox</legend>
+          <legend class="checkbox-title">Checkbox</legend>
 
-          <label class="">
+          <label class="checkbox">
             <input type="checkbox" name="checkbox-1" checked class="" />
             Checkbox 1
           </label>
 
-          <label class="">
+          <label class="checkbox">
             <input type="checkbox" name="checkbox-2" class="" />
             Checkbox 2
           </label>
 
-          <label class="">
+          <label class="checkbox">
             <input type="checkbox" name="chekcbox-3" class="" />
             Checkbox 3
           </label>
         </fieldset>
 
         <p>
-          <label class="">
+          <label class="search-title">
             Search:
-            <input type="search" class="" />
+            <input type="search" class="search-field" />
           </label>
         </p>
 
         <p>
-          <label class="">
+          <label class="tel-title">
             Tel:
-            <input type="tel" class="" />
+            <input type="tel" class="tel-field" />
           </label>
         </p>
 
         <p>
-          <label class="">
+          <label class="range-title">
             Range:
-            <input type="range" class="" />
+            <input type="range" class="range-field" />
           </label>
         </p>
 
         <p>
-          <input type="submit" value="Submit button" class="" />
-        </p>
-
-        <p>
-          <button type="button" class="">Button</button>
+          <input type="submit" value="Submit button" class="submit-button" />
         </p>
       </form>
     </section>

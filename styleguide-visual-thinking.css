@@ -224,7 +224,7 @@ label:has(input[type="radio"], input[type="checkbox"]) {
 
 input[type="radio"],
 input[type="checkbox"] {
-  appearance: none;
+  accent-color: white;
   cursor: pointer;
 }
 
